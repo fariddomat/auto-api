@@ -1,0 +1,28 @@
+{
+    "name": "fariddomat/auto-api",
+    "description": "Automates RESTful API generation for Laravel.",
+    "type": "laravel-package",
+    "license": "MIT",
+    "require": {
+        "php": ">=8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fariddomat\\AutoApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farid Domat",
+            "email": "fariddomat.000@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fariddomat\\AutoApi\\AutoApiServiceProvider"
+            ]
+        }
+    }
+}
